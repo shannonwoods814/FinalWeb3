@@ -1,11 +1,6 @@
 /* =============
     Mixins
 ============= */
-/* ---------------- Font Sizing ---------------- */
-html {
-  font-size: 100%;
-}
-
 /* ---------------- Media Queries ---------------- */
 /* =============
     Variables
@@ -327,6 +322,15 @@ template {
 /* =============
     Base
 ============= */
+.buttoncolor {
+  background-color: #FF8585;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  color: #f8f8f8;
+}
+
 /* =============
     Typography
 ============= */
