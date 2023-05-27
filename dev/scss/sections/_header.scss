@@ -1,0 +1,22 @@
+header {
+
+    display: grid;
+    grid-template-columns: 1fr;
+    background-color: #45294F;
+
+
+    nav {
+        background-color:#45294F;;
+        padding: 24px;
+        display: flex;
+    }
+
+    div#gif {
+        img{
+            width: 100%;
+            height: 100%;
+           
+        }
+    }
+
+}
