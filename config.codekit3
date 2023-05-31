@@ -60,6 +60,19 @@
       "q" : 90,
       "rq" : 75
     },
+    "\/deploy\/img\/BUYNOW.png" : {
+      "ft" : 32768,
+      "iS" : 856044,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/BUYNOW.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 90,
+      "rq" : 75
+    },
     "\/deploy\/img\/Cart.png" : {
       "ft" : 32768,
       "iS" : 365,
@@ -174,17 +187,17 @@
       "q" : 90,
       "rq" : 75
     },
-    "\/deploy\/img\/shark-hyper-air-photo.jpg" : {
-      "ft" : 16384,
-      "iS" : 72508,
-      "jF" : 0,
+    "\/deploy\/img\/Shark Hyper Air photo.png" : {
+      "ft" : 32768,
+      "iS" : 39335,
       "oA" : 0,
-      "oAP" : "\/deploy\/img\/shark-hyper-air-photo.jpg",
+      "oAP" : "\/deploy\/img\/Shark Hyper Air photo.png",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
+      "oT" : 1,
       "ou" : "lpckwebp-none",
-      "q" : 100,
+      "q" : 90,
       "rq" : 75
     },
     "\/deploy\/img\/sharkhyperairlogo.png" : {
@@ -295,7 +308,7 @@
       "cB" : 0,
       "ft" : 2048,
       "hM" : 0,
-      "oA" : 0,
+      "oA" : 1,
       "oAP" : "\/dev\/content\/about.html",
       "oF" : 0
     },
@@ -303,23 +316,31 @@
       "cB" : 0,
       "ft" : 2048,
       "hM" : 0,
-      "oA" : 0,
+      "oA" : 1,
       "oAP" : "\/dev\/content\/attachments.html",
+      "oF" : 0
+    },
+    "\/dev\/content\/gifbuynow.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/content\/gifbuynow.html",
       "oF" : 0
     },
     "\/dev\/content\/reviews.kit" : {
       "cB" : 0,
       "ft" : 2048,
       "hM" : 0,
-      "oA" : 0,
+      "oA" : 1,
       "oAP" : "\/dev\/content\/reviews.html",
       "oF" : 0
     },
-    "\/dev\/content\/suggestedforyou.html" : {
+    "\/dev\/content\/suggestedforyou.kit" : {
       "cB" : 0,
-      "ft" : 8192,
+      "ft" : 2048,
       "hM" : 0,
-      "oA" : 0,
+      "oA" : 1,
       "oAP" : "\/dev\/content\/suggestedforyou.html",
       "oF" : 0
     },
@@ -549,6 +570,21 @@
       "ma" : 0,
       "oA" : 1,
       "oAP" : "\/dev\/scss\/sections\/_attachments.css",
+      "oF" : 0,
+      "oS" : 0,
+      "pg" : 0,
+      "sct" : 0
+    },
+    "\/dev\/scss\/sections\/_gifbuynow.scss" : {
+      "aP" : 0,
+      "bl" : 0,
+      "co" : 0,
+      "dP" : 10,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/scss\/sections\/_gifbuynow.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0,
