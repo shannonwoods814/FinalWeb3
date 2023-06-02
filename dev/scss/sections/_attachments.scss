@@ -2,6 +2,9 @@ article{
     display:flex;
     justify-content: center;
     align-items: center;
+    h2{
+        margin-bottom: 20px;
+    }
 } 
 
 
@@ -15,8 +18,60 @@ article{
         justify-content: center;
         align-items: center;
         flex-direction: column;
-        flex: center;
+
+    h3{
+        text-align: center;
+    }
+        
 
        
 
+}
+
+#two{
+  
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+h3{
+    text-align: center;
+}
+    
+
+   
+
+}
+
+
+#three{
+  
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+h3{
+    text-align: center;
+}
+    
+
+   
+
+}
+
+.total-addtocart{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+h2{
+    margin-bottom: 2px;
 }

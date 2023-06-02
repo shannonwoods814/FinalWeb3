@@ -9,6 +9,14 @@
   ],
   "creatorBuild" : "34472",
   "files" : {
+    "\/deploy\/Checkout.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/Checkout.html",
+      "oF" : 0
+    },
     "\/deploy\/css\/styles.css" : {
       "aP" : 1,
       "bl" : 0,
@@ -20,6 +28,71 @@
       "oAP" : "\/deploy\/css\/styles-min.css",
       "oF" : 0,
       "pg" : 0
+    },
+    "\/deploy\/img\/1starreviewbar.png" : {
+      "ft" : 32768,
+      "iS" : 965,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/1starreviewbar.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 90,
+      "rq" : 75
+    },
+    "\/deploy\/img\/2starreviewbar.png" : {
+      "ft" : 32768,
+      "iS" : 1254,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/2starreviewbar.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 90,
+      "rq" : 75
+    },
+    "\/deploy\/img\/3starreviewbar.png" : {
+      "ft" : 32768,
+      "iS" : 1310,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/3starreviewbar.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 90,
+      "rq" : 75
+    },
+    "\/deploy\/img\/4starreviewbar.png" : {
+      "ft" : 32768,
+      "iS" : 1167,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/4starreviewbar.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 90,
+      "rq" : 75
+    },
+    "\/deploy\/img\/5starreviewbar.png" : {
+      "ft" : 32768,
+      "iS" : 1271,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/5starreviewbar.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 90,
+      "rq" : 75
     },
     "\/deploy\/img\/Attachment 3.png" : {
       "ft" : 32768,
@@ -304,44 +377,84 @@
       "sC" : 3,
       "tS" : 0
     },
-    "\/dev\/content\/about.kit" : {
+    "\/deploy\/thankyou.html" : {
       "cB" : 0,
-      "ft" : 2048,
+      "ft" : 8192,
       "hM" : 0,
-      "oA" : 1,
-      "oAP" : "\/dev\/content\/about.html",
+      "oA" : 0,
+      "oAP" : "\/deploy\/thankyou.html",
       "oF" : 0
     },
-    "\/dev\/content\/attachments.kit" : {
+    "\/dev\/Checkout.kit" : {
       "cB" : 0,
       "ft" : 2048,
       "hM" : 0,
-      "oA" : 1,
-      "oAP" : "\/dev\/content\/attachments.html",
+      "oA" : 0,
+      "oAP" : "\/deploy\/Checkout.html",
+      "oF" : 2
+    },
+    "\/dev\/content\/checkout\/cart.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/dev\/content\/checkout\/cart.html",
       "oF" : 0
     },
-    "\/dev\/content\/gifbuynow.kit" : {
+    "\/dev\/content\/product\/about.kit" : {
       "cB" : 0,
       "ft" : 2048,
       "hM" : 0,
-      "oA" : 1,
-      "oAP" : "\/dev\/content\/gifbuynow.html",
+      "oA" : 0,
+      "oAP" : "\/dev\/content\/product\/about.html",
       "oF" : 0
     },
-    "\/dev\/content\/reviews.kit" : {
+    "\/dev\/content\/product\/attachments.kit" : {
       "cB" : 0,
       "ft" : 2048,
       "hM" : 0,
-      "oA" : 1,
-      "oAP" : "\/dev\/content\/reviews.html",
+      "oA" : 0,
+      "oAP" : "\/dev\/content\/product\/attachments.html",
       "oF" : 0
     },
-    "\/dev\/content\/suggestedforyou.kit" : {
+    "\/dev\/content\/product\/gifbuynow.kit" : {
       "cB" : 0,
       "ft" : 2048,
       "hM" : 0,
-      "oA" : 1,
-      "oAP" : "\/dev\/content\/suggestedforyou.html",
+      "oA" : 0,
+      "oAP" : "\/dev\/content\/product\/gifbuynow.html",
+      "oF" : 0
+    },
+    "\/dev\/content\/product\/reviews.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/dev\/content\/product\/reviews.html",
+      "oF" : 0
+    },
+    "\/dev\/content\/product\/suggestedforyou.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/dev\/content\/product\/suggestedforyou.html",
+      "oF" : 0
+    },
+    "\/dev\/content\/product\/suggestedforyou.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/dev\/content\/product\/suggestedforyou.html",
+      "oF" : 0
+    },
+    "\/dev\/content\/thankyou\/cofirmation.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/dev\/content\/thankyou\/cofirmation.html",
       "oF" : 0
     },
     "\/dev\/global\/footer.kit" : {
@@ -649,6 +762,14 @@
       "oS" : 0,
       "pg" : 0,
       "sct" : 0
+    },
+    "\/dev\/thankyou.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/thankyou.html",
+      "oF" : 2
     }
   },
   "hooks" : [

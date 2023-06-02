@@ -384,7 +384,7 @@ p {
   padding-left: 7px;
   padding-right: 5px;
   padding-top: 7px;
-  padding-bottom: 5px;
+  padding-bottom: 2px;
   color: #f8f8f8;
   font-family: "Hiragino Kaku Gothic Pro", Arial, sans-serif;
   font-weight: 500px;
@@ -395,12 +395,17 @@ p {
 }
 
 .button {
-  background: color #45294f;
+  background-color: #45294f;
   padding-left: 10px;
   padding-right: 10px;
   padding-top: 5px;
   padding-bottom: 5px;
   color: #f8f8f8;
+  text-decoration: none;
+  font-family: "Hiragino Kaku Gothic Pro", Arial, sans-serif;
+  font-size: 10px;
+  font-weight: 550px;
+  padding-top: 7px;
 }
 
 /* =============
@@ -430,10 +435,48 @@ textarea {
 /* =============
     Footer
 ============= */
+.about {
+  background-color: #45294F;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-top: 20px;
+  padding-left: 36px;
+}
+.about h1 {
+  color: #fafafa;
+}
+
+.header {
+  background-color: rgba(69, 41, 79, 0.6);
+  border: none;
+  margin: none;
+}
+.header h2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 40px;
+  color: #fafafa;
+  margin-top: 0;
+}
+.header h3 {
+  text-align: center;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-bottom: 60px;
+  margin-bottom: 0px;
+  line-height: 25px;
+  color: #fafafa;
+}
+
 article {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+article h2 {
+  margin-bottom: 20px;
 }
 
 #one {
@@ -441,7 +484,40 @@ article {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  flex: center;
+}
+#one h3 {
+  text-align: center;
+}
+
+#two {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+#two h3 {
+  text-align: center;
+}
+
+#three {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+#three h3 {
+  text-align: center;
+}
+
+.total-addtocart {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+h2 {
+  margin-bottom: 2px;
 }
 
 header {
@@ -467,16 +543,13 @@ nav {
   display: flex;
 }
 
-/* =============
-    Mixins
-============= */
-/* ---------------- Media Queries ---------------- */
 header {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding-top: 0px;
-  padding-bottom: 0px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 25px;
 }
 header #burger-btn {
   display: flex;
@@ -502,13 +575,14 @@ header #burger-container {
 }
 @media only screen and (max-width: 600px) {
   header #main-menu {
-    background-color: green;
+    background-color: #45294F;
     transition: 0.3s;
     height: 100vw;
     width: 80%;
     position: absolute;
     top: 0;
     right: -100%;
+    z-index: 2;
   }
   header #main-menu.show-menu {
     right: 0;
@@ -543,6 +617,68 @@ div#hero img {
 }
 div#hero .buttoncolor {
   position: absolute;
-  top: 47.7%;
+  top: 45.5%;
   right: 40%;
+}
+
+#reviews {
+  background-color: #45294F;
+  color: #fafafa;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 36px;
+}
+#reviews h1 {
+  padding-right: 18px;
+}
+
+#searchbar {
+  background-color: rgba(69, 41, 79, 0.75);
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+#searchbar h4 {
+  color: #45294F;
+  border: 2px solid #000;
+  background-color: #fafafa;
+  padding: 5px;
+  margin-right: px;
+}
+#searchbar img {
+  margin-left: 20px;
+  background-color: #45294F;
+  padding-top: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+  border: 1px solid #000;
+}
+
+.filter {
+  background-color: rgba(69, 41, 79, 0.75);
+}
+.filter h2 {
+  margin-top: 0;
+  padding-top: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: #fafafa;
+  margin-left: 30px;
+  margin-right: 30px;
+}
+.filter #star {
+  margin-top: 14px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+suggestedforyou h1 {
+  background-color: #45294F;
+  color: #fafafa;
 }

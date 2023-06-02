@@ -24,87 +24,14 @@ header {
         display: flex;
     }
 
-/* =============
-    Mixins
-============= */
-// Define the breakpoints
-// Small tablets and large smartphones
-$screen-sm-min: 576px;
-
-// Small tablets
-$screen-md-min: 768px;
-
-// Large tablets and small desktops
-$screen-lg-min: 1024px;
-
-// Large desktops
-$screen-xl-min: 1200px;
-
-
-
-/* ---------------- Media Queries ---------------- */
-// Small devices
-@mixin sm {
-    @media (min-width: #{$screen-sm-min}) {
-        @content;
-    }
-}
-//Usage
-// @include sm{
-//     grid-template-columns: 100%;
-// }
-
-
-// Medium devices
-@mixin md {
-    @media (min-width: #{$screen-md-min}) {
-        @content;
-    }
-}
-//Usage
-// @include md{
-//     grid-template-columns: 20% 80%;
-// }
-
-
-// Large devices
-@mixin lg {
-    @media (min-width: #{$screen-lg-min}) {
-        @content;
-    }
-}
-//Usage
-// @include lg{
-//     grid-template-columns: repeat(3, 1fr);
-// }
-
-
-// Extra large devices
-@mixin xl {
-    @media (min-width: #{$screen-xl-min}) {
-        @content;
-    }
-}
-//Usage
-// @include xl{
-//     grid-template-columns: repeat(4, 1fr);
-// }
-
-// Super Extra large devices
-@mixin xxl {
-    @media (min-width: #{$screen-xxl-min}) {
-        @content;
-    }
-}
-
-
 
 header{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding-top: 0px;
-    padding-bottom: 0px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left:25px;
   
   //// THIS IS YOUR NAV CODE /////
 
@@ -138,13 +65,14 @@ header{
     #main-menu{
       
       @media only screen and (max-width: 600px) {
-          background-color: green;
+          background-color: #45294F ;
           transition:.3s;
           height: 100vw;
           width: 80%;
           position: absolute;
           top: 0;
           right: -100%;
+          z-index: 2;
 
           &.show-menu{
               right:0;

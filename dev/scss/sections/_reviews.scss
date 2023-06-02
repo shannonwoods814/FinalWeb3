@@ -1,0 +1,74 @@
+
+#reviews{
+    background-color: #45294F;
+    color: #fafafa;
+    display: flex;
+    justify-content: flex-start; // Align items to the start of the container
+    align-items: center;
+
+padding-top: 10px;
+    padding-bottom:10px;
+  
+    padding-left: 36px;
+    
+
+h1{
+    padding-right: 18px;
+}
+}
+
+#searchbar{
+    background-color: rgba(69, 41, 79, 0.75); ;
+
+    display: flex;
+    justify-content: flex-start; // Align items to the start of the container
+    align-items: center;
+ 
+    h4{
+    color:#45294F;
+    border: 2px solid #000;
+    background-color: #fafafa;
+    padding:5px;
+    margin-right:px
+  }  
+
+  img{
+    margin-left: 20px;
+    background-color: #45294F;
+    padding-top: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border: 1px solid #000;
+  }
+
+}
+
+.filter{
+   background-color:rgba(69, 41, 79, 0.75); ; 
+   h2{
+margin-top: 0;
+padding-top: 10px;
+display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color:#fafafa;
+    margin-left: 30px;
+    margin-right: 30px;
+   }
+
+#star{
+
+    margin-top: 14px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+    
+}
+
+   
+
+
+
+}

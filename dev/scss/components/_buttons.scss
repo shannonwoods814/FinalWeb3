@@ -7,7 +7,7 @@
     padding-left: 7px;
     padding-right: 5px;
     padding-top: 7px;
-    padding-bottom: 5px;
+    padding-bottom: 2px;
     color: #f8f8f8;
     font-family: 'Hiragino Kaku Gothic Pro', Arial, sans-serif;
     font-weight: 500px;
@@ -22,10 +22,15 @@
 
 .button{
 
-     background: color #45294f;;
+     background-color: #45294f;;
     padding-left: 10px;
     padding-right: 10px;
     padding-top: 5px;
     padding-bottom: 5px;
-    color: #f8f8f8
+    color: #f8f8f8;
+    text-decoration: none;
+    font-family: 'Hiragino Kaku Gothic Pro', Arial, sans-serif;
+    font-size:10px;
+    font-weight: 550px;
+    padding-top: 7px;
 }
