@@ -1,11 +1,29 @@
+*{
+    text-decoration: none;
+    list-style: none;
+}
+
+.foryou{
+    background-color: #45294F;
+}
+
 .suggestedforyou{
 
-    h1{
-       
-        background-color: #45294F;
-        color:#fafafa;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+   
+}
 
-    }
+#nonslip{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
 
 
-} 
+

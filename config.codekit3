@@ -401,45 +401,37 @@
       "oAP" : "\/dev\/content\/checkout\/cart.html",
       "oF" : 0
     },
-    "\/dev\/content\/product\/about.html" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/dev\/content\/product\/about.html",
-      "oF" : 0
-    },
     "\/dev\/content\/product\/about.kit" : {
       "cB" : 0,
       "ft" : 2048,
       "hM" : 0,
-      "oA" : 0,
+      "oA" : 1,
       "oAP" : "\/dev\/content\/product\/about.html",
-      "oF" : 0
+      "oF" : 1
     },
     "\/dev\/content\/product\/attachments.kit" : {
       "cB" : 0,
       "ft" : 2048,
       "hM" : 0,
-      "oA" : 0,
+      "oA" : 1,
       "oAP" : "\/dev\/content\/product\/attachments.html",
-      "oF" : 0
+      "oF" : 1
     },
     "\/dev\/content\/product\/gifbuynow.kit" : {
       "cB" : 0,
       "ft" : 2048,
       "hM" : 0,
-      "oA" : 0,
+      "oA" : 1,
       "oAP" : "\/dev\/content\/product\/gifbuynow.html",
-      "oF" : 0
+      "oF" : 1
     },
     "\/dev\/content\/product\/reviews.kit" : {
       "cB" : 0,
       "ft" : 2048,
       "hM" : 0,
-      "oA" : 0,
+      "oA" : 1,
       "oAP" : "\/dev\/content\/product\/reviews.html",
-      "oF" : 0
+      "oF" : 1
     },
     "\/dev\/content\/product\/suggestedforyou.kit" : {
       "cB" : 0,

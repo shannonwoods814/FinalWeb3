@@ -555,6 +555,9 @@ header #burger-container {
     display: none;
   }
 }
+header #main-menu.show-menu {
+  display: inline;
+}
 @media only screen and (max-width: 600px) {
   header #main-menu {
     background-color: #45294F;
@@ -659,8 +662,31 @@ div#hero .buttoncolor {
   align-items: center;
   text-align: center;
 }
+.filter .lowerreviewsection h2 {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
 
-.suggestedforyou h1 {
+* {
+  text-decoration: none;
+  list-style: none;
+}
+
+.foryou {
   background-color: #45294F;
-  color: #fafafa;
+}
+
+.suggestedforyou {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+#nonslip {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
