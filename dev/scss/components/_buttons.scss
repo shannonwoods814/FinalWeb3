@@ -23,8 +23,8 @@
 .button{
 
      background-color: #45294f;;
-    padding-left: 10px;
-    padding-right: 10px;
+    padding-left: 25px;
+    padding-right: 25px;
     padding-top: 5px;
     padding-bottom: 5px;
     color: #f8f8f8;
@@ -34,3 +34,66 @@
     font-weight: 550px;
     padding-top: 7px;
 }
+.revbutton{
+
+    background-color: #45294f;;
+   padding-left: 10px;
+   padding-right: 10px;
+   padding-top: 5px;
+   padding-bottom: 5px;
+   color: #f8f8f8;
+   text-decoration: none;
+   font-family: 'Hiragino Kaku Gothic Pro', Arial, sans-serif;
+   font-size:10px;
+   font-weight: 550px;
+   padding-top: 7px;
+}
+
+.readmorebutton{
+
+background-color: #45294f;;
+   padding-left: 40px;
+   padding-right: 40px;
+   padding-top: 5px;
+   padding-bottom: 5px;
+   color: #f8f8f8;
+   text-decoration: none;
+   font-family: 'Hiragino Kaku Gothic Pro', Arial, sans-serif;
+   font-size:10px;
+   font-weight: 550px;
+   padding-top: 7px;
+}
+
+
+.radio-container {
+    padding:20px;
+    input[type="radio"] {
+      display: none; // Hide the default radio button input
+    }
+  
+    label {
+      position: relative;
+      padding-left: 30px; // Adjust the spacing between the radio button and the label text
+      padding-top: 20px;
+      padding-bottom: 20px;
+      cursor: pointer;
+    }
+  
+    label::before {
+      content: "";
+      position: absolute;
+      top: 50%;
+      left: 0;
+      transform: translateY(-50%);
+      width: 20px; // Set the width of the custom radio button
+      height: 20px; // Set the height of the custom radio button
+      border-radius: 50%;
+      background-color: #ddd; // Set the color of the custom radio button
+      border: 2px solid #333; // Set the border of the custom radio button
+    }
+  
+    input[type="radio"]:checked + label::before {
+      background-color: #333; // Set the color of the custom radio button when selected
+    }
+  }
+  

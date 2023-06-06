@@ -5,6 +5,10 @@
 
 .foryou{
     background-color: #45294F;
+    padding-top: 10px;
+    padding-bottom:10px;
+    padding-left: 36px;
+    color: #fafafa;
 }
 
 .suggestedforyou{
@@ -13,7 +17,21 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    text-align: center;
    
+}
+
+#roundbrush{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+
+    img{
+        padding-top: 45px;
+    }
+
 }
 
 #nonslip{
@@ -22,8 +40,33 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    text-align: center;
+
+    img{
+        padding-top: 45px;
+    }
 
 }
+
+#paddle{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+
+    img{
+        padding-top: 45px;
+    }
+
+
+}
+
+
+
+
+
 
 
 

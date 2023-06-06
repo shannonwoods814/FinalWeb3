@@ -341,6 +341,7 @@ h1 {
 h2 {
   font-family: "Hiragino Kaku Gothic Pro", Arial, sans-serif;
   font-size: 24px;
+  margin: none;
 }
 
 h3 {
@@ -378,6 +379,20 @@ p {
 
 .button {
   background-color: #45294f;
+  padding-left: 25px;
+  padding-right: 25px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  color: #f8f8f8;
+  text-decoration: none;
+  font-family: "Hiragino Kaku Gothic Pro", Arial, sans-serif;
+  font-size: 10px;
+  font-weight: 550px;
+  padding-top: 7px;
+}
+
+.revbutton {
+  background-color: #45294f;
   padding-left: 10px;
   padding-right: 10px;
   padding-top: 5px;
@@ -388,6 +403,49 @@ p {
   font-size: 10px;
   font-weight: 550px;
   padding-top: 7px;
+}
+
+.readmorebutton {
+  background-color: #45294f;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  color: #f8f8f8;
+  text-decoration: none;
+  font-family: "Hiragino Kaku Gothic Pro", Arial, sans-serif;
+  font-size: 10px;
+  font-weight: 550px;
+  padding-top: 7px;
+}
+
+.radio-container {
+  padding: 20px;
+}
+.radio-container input[type=radio] {
+  display: none;
+}
+.radio-container label {
+  position: relative;
+  padding-left: 30px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  cursor: pointer;
+}
+.radio-container label::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: #ddd;
+  border: 2px solid #333;
+}
+.radio-container input[type=radio]:checked + label::before {
+  background-color: #333;
 }
 
 /* =============
@@ -644,6 +702,7 @@ div#hero .buttoncolor {
 
 .filter {
   background-color: rgba(69, 41, 79, 0.75);
+  padding-bottom: 50px;
 }
 .filter h2 {
   margin-top: 0;
@@ -655,17 +714,59 @@ div#hero .buttoncolor {
   color: #fafafa;
   margin-left: 30px;
   margin-right: 30px;
+  margin-bottom: 0px;
 }
 .filter #star {
   margin-top: 14px;
   justify-content: center;
   align-items: center;
   text-align: center;
+  padding-bottom: 10px;
 }
-.filter .lowerreviewsection h2 {
-  justify-content: center;
-  align-items: center;
+
+.lowerreviewsection {
   text-align: center;
+}
+.lowerreviewsection aside {
+  background-color: #fafafa;
+  margin: 40px;
+  padding-bottom: 70px;
+  padding-top: 70px;
+}
+.lowerreviewsection aside h2 {
+  color: #45294F;
+  padding-bottom: 10px;
+  margin-left: 25px;
+  margin-right: 25px;
+}
+.lowerreviewsection aside img {
+  background-color: #fafafa;
+  margin-top: 0px;
+  margin-left: 25px;
+  margin-right: 25px;
+}
+.lowerreviewsection aside h3 {
+  background-color: #fafafa;
+  padding-bottom: 10px;
+  margin-left: 25px;
+  margin-right: 25px;
+  padding-top: 0px;
+  padding: 2px;
+}
+.lowerreviewsection aside h4 {
+  background-color: #fafafa;
+  padding-bottom: 10px;
+  margin-top: 0px;
+  margin-left: 25px;
+  margin-right: 25px;
+  padding-top: 0px;
+  padding: 2px;
+}
+.lowerreviewsection #add-review .revbutton {
+  margin-bottom: 3000px;
+}
+.lowerreviewsection #readmore {
+  margin-top: 30px;
 }
 
 * {
@@ -675,6 +776,10 @@ div#hero .buttoncolor {
 
 .foryou {
   background-color: #45294F;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 36px;
+  color: #fafafa;
 }
 
 .suggestedforyou {
@@ -682,6 +787,18 @@ div#hero .buttoncolor {
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  text-align: center;
+}
+
+#roundbrush {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+}
+#roundbrush img {
+  padding-top: 45px;
 }
 
 #nonslip {
@@ -689,4 +806,55 @@ div#hero .buttoncolor {
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  text-align: center;
+}
+#nonslip img {
+  padding-top: 45px;
+}
+
+#paddle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+}
+#paddle img {
+  padding-top: 45px;
+}
+
+#footer {
+  background-color: #45294F;
+  padding-bottom: 50px;
+  color: #fafafa;
+  padding-top: 20px;
+  text-align: center;
+  margin-top: 160px;
+}
+#footer h2 {
+  text-decoration: underline;
+}
+#footer aside h3 {
+  display: block;
+}
+@media (max-width: 767px) {
+  #footer aside h3 {
+    display: none;
+  }
+}
+#footer article h3 {
+  display: block;
+}
+@media (max-width: 767px) {
+  #footer article h3 {
+    display: none;
+  }
+}
+#footer div h3 {
+  display: block;
+}
+@media (max-width: 767px) {
+  #footer div h3 {
+    display: none;
+  }
 }

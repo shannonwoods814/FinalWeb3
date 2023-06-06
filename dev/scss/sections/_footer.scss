@@ -1,0 +1,54 @@
+#footer{
+
+    background-color: #45294F;
+    padding-bottom: 50px;
+    color: #fafafa;
+    padding-top: 20px;
+    text-align: center;
+    margin-top: 160px;
+    h2{
+        text-decoration: underline;
+    }
+   
+    aside {
+
+        h3 {
+          display: block; // Show the h3 tag by default
+          
+          @media (max-width: 767px) { // Apply the styles for screens up to 767px wide (considered as mobile devices)
+            display: none; // Hide the h3 tag on mobile devices
+          }
+        }
+      }
+
+      article {
+     
+           
+        h3 {
+          display: block; // Show the h3 tag by default
+          
+          @media (max-width: 767px) { // Apply the styles for screens up to 767px wide (considered as mobile devices)
+            display: none; // Hide the h3 tag on mobile devices
+          }
+        }
+      }
+
+      div {
+        
+
+        h3 {
+        
+          display: block; // Show the h3 tag by default
+          
+          @media (max-width: 767px) { // Apply the styles for screens up to 767px wide (considered as mobile devices)
+            display: none; // Hide the h3 tag on mobile devices
+          }
+        }
+      }
+
+
+
+    
+
+
+}
