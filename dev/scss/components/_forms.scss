@@ -16,3 +16,19 @@ input[type=password],
 textarea {
     -webkit-appearance: none;
 }
+
+
+.payment-form {
+    label {
+      display: block;
+      margin-bottom: 10px;
+      font-size: 16px;
+      color: #666;}}
+
+
+.shipping-form {
+        label {
+          display: block;
+          margin-bottom: 10px;
+          font-size: 16px;
+          color: #666;}}

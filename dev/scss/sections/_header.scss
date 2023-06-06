@@ -40,6 +40,7 @@ header{
         flex-direction: column;
         gap: 10px;
         position:relative;
+        padding-right: 25px;
        
       div{
             height: 5px;
@@ -51,6 +52,29 @@ header{
            
         }
     }
+
+    #burger-btn.open{
+        div{
+            position: relative;
+          transition:.3s;
+          //// COLORS & STYLES FOR ALL HERE
+          &:first-child{
+            transform: rotate(45deg);
+            transform-origin: bottom left;
+            top:3px;
+          }
+          &:nth-child(2){
+            opacity:0;
+          }
+          &:last-child{
+            transform-origin: top left;
+            transform:rotate(-45deg);
+            top:-3px;
+          }
+        }
+      }
+
+
 
     #burger-container{
         display: block;
@@ -64,15 +88,12 @@ header{
 
     #main-menu{
 
-
-        &.show-menu{
-            display:inline;
-        }
       
-      @media only screen and (max-width: 600px) {
+      @media only screen and (max-width: 1024px) {
+        display: none;
           background-color: #45294F ;
           transition:.3s;
-          height: 100vw;
+          height: 100vh;
           width: 80%;
           position: absolute;
           top: 0;
@@ -81,11 +102,15 @@ header{
 
           &.show-menu{
               right:0;
+              display: inline;
               transition:.3s;
+
+              /// YOUR STYLES FOR OPEN GO HERE
           }
       }
      
         @include lg{
+            
              ul{ 
                   display: flex;
               }

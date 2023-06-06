@@ -9,6 +9,7 @@
 
     padding-top: 10px;
     padding-bottom: 10px;
+    
 
     padding-left: 36px;
 
@@ -19,30 +20,42 @@
 }
 
 #searchbar {
+
+
     background-color: rgba(69, 41, 79, 0.75);
-    ;
+    
 
     display: flex;
     justify-content: flex-start; // Align items to the start of the container
     align-items: center;
+    padding-top: 20px;
 
-    h4 {
+
+
+
+    ::placeholder {
         color: #45294F;
-        border: 2px solid #000;
         background-color: #fafafa;
         padding: 5px;
-        margin-right: px
+        margin-right:10px;
+        font-family:'Hiragino Kaku Gothic Pro', Arial, sans-serif;
+        font-size: 12px;
+        padding-right: 30px;
+        
     }
+
+
 
     img {
         margin-left: 20px;
         background-color: #45294F;
-        padding-top: 5px;
+        padding-top: 8px;
+        padding-bottom: 2px;
         padding-left: 10px;
         padding-right: 10px;
         border: 1px solid #000;
     }
-
+    
 }
 
 .filter {
@@ -161,7 +174,4 @@
     }
 
 
-
-
-
-}
+    }

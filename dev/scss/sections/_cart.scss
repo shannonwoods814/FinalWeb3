@@ -1,0 +1,85 @@
+.ordersummary{
+        background-color: #45294F;
+        color: #fafafa;
+
+    margin-bottom: none;
+    padding-top: 5px;
+    margin-top: 30px;
+
+   text-align: center;
+    
+}
+
+.summary{
+
+    background-color: #45294F;
+    color: #fafafa;
+
+margin-bottom: 0px; 
+margin-top: -25px;
+text-align: center;
+padding-bottom: 5px;
+
+}
+
+
+
+.payment-section {
+    background-color:rgba(69, 41, 79, 0.75);
+   
+  
+.payment-form {
+      label {
+        display: block;
+        margin-bottom: 10px;
+        font-size: 16px;
+        color: #fafafa;
+      }
+  
+      input {
+        width: 100%;
+        padding: 8px;
+        font-size: 14px;
+        color: #333;
+        margin-bottom: 16px;
+  
+        &::placeholder {
+          color: #999;
+        }
+      }
+    }
+  }
+
+
+  .shipping-section {
+    background-color:rgba(69, 41, 79, 0.75);
+   
+    h2 {
+      color: #333;
+      font-size: 24px;
+      margin-bottom: 20px;
+    }
+  
+.shipping-form {
+      label {
+        display: block;
+        margin-bottom: 10px;
+        font-size: 16px;
+        color: #fafafa;
+      }
+  
+      input {
+        width: 100%;
+        padding: 8px;
+        font-size: 14px;
+        color: #333;
+        margin-bottom: 16px;
+  
+        &::placeholder {
+          color: #999;
+        }
+      }
+    }
+  }
+  
+  

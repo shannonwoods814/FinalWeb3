@@ -376,6 +376,11 @@ p {
   width: 48px;
   height: 13px;
 }
+.buttoncolor:hover {
+  background-color: #D110A7;
+  color: #fafafa;
+  box-shadow: 0px 0px 1px 1px rgb(0, 0, 0);
+}
 
 .button {
   background-color: #45294f;
@@ -389,6 +394,12 @@ p {
   font-size: 10px;
   font-weight: 550px;
   padding-top: 7px;
+  /* Hovering styles */
+}
+.button:hover {
+  background-color: #45294f;
+  color: #fafafa;
+  box-shadow: 0px 0px 1px 1px rgb(0, 0, 0);
 }
 
 .revbutton {
@@ -403,6 +414,12 @@ p {
   font-size: 10px;
   font-weight: 550px;
   padding-top: 7px;
+  /* Hovering styles */
+}
+.revbutton:hover {
+  background-color: #45294f;
+  color: #fafafa;
+  box-shadow: 0px 0px 1px 1px rgb(0, 0, 0);
 }
 
 .readmorebutton {
@@ -417,6 +434,12 @@ p {
   font-size: 10px;
   font-weight: 550px;
   padding-top: 7px;
+  /* Hovering styles */
+}
+.readmorebutton:hover {
+  background-color: #45294f;
+  color: #fafafa;
+  box-shadow: 0px 0px 1px 1px rgb(0, 0, 0);
 }
 
 .radio-container {
@@ -429,7 +452,7 @@ p {
   position: relative;
   padding-left: 30px;
   padding-top: 20px;
-  padding-bottom: 20px;
+  padding-bottom: 35px;
   cursor: pointer;
 }
 .radio-container label::before {
@@ -448,6 +471,31 @@ p {
   background-color: #333;
 }
 
+.search-bar {
+  display: flex;
+  align-items: center;
+}
+
+.search-input {
+  padding: 8px;
+  padding-right: 10px;
+  border: 2px solid black;
+  border-radius: 0px;
+  margin-right: 60px;
+}
+
+.search-button {
+  padding: 8px 16px;
+  background-color: #000;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.search-button:hover {
+  background-color: #222;
+}
+
 /* =============
     Forms
 ============= */
@@ -464,6 +512,20 @@ input[type=email],
 input[type=password],
 textarea {
   -webkit-appearance: none;
+}
+
+.payment-form label {
+  display: block;
+  margin-bottom: 10px;
+  font-size: 16px;
+  color: #666;
+}
+
+.shipping-form label {
+  display: block;
+  margin-bottom: 10px;
+  font-size: 16px;
+  color: #666;
 }
 
 /* =============
@@ -519,11 +581,19 @@ article h2 {
   margin-bottom: 20px;
 }
 
+.attachments {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
 #one {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  max-width: 400px;
 }
 #one h3 {
   text-align: center;
@@ -534,6 +604,7 @@ article h2 {
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  max-width: 400px;
 }
 #two h3 {
   text-align: center;
@@ -544,6 +615,8 @@ article h2 {
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  max-width: 400px;
+  text-align: center;
 }
 #three h3 {
   text-align: center;
@@ -560,6 +633,17 @@ h2 {
   margin-bottom: 2px;
 }
 
+@media (min-width: 1024px) {
+  .attachments {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-left: 200px;
+    padding-right: 200px;
+    padding-top: 30px;
+    align-items: flex-start;
+  }
+}
 header {
   display: grid;
   grid-template-columns: 1fr;
@@ -596,12 +680,30 @@ header #burger-btn {
   flex-direction: column;
   gap: 10px;
   position: relative;
+  padding-right: 25px;
 }
 header #burger-btn div {
   height: 5px;
   width: 30px;
   background: #fafafa;
   border-radius: 16px;
+}
+header #burger-btn.open div {
+  position: relative;
+  transition: 0.3s;
+}
+header #burger-btn.open div:first-child {
+  transform: rotate(45deg);
+  transform-origin: bottom left;
+  top: 3px;
+}
+header #burger-btn.open div:nth-child(2) {
+  opacity: 0;
+}
+header #burger-btn.open div:last-child {
+  transform-origin: top left;
+  transform: rotate(-45deg);
+  top: -3px;
 }
 header #burger-container {
   display: block;
@@ -613,14 +715,12 @@ header #burger-container {
     display: none;
   }
 }
-header #main-menu.show-menu {
-  display: inline;
-}
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 1024px) {
   header #main-menu {
+    display: none;
     background-color: #45294F;
     transition: 0.3s;
-    height: 100vw;
+    height: 100vh;
     width: 80%;
     position: absolute;
     top: 0;
@@ -629,6 +729,7 @@ header #main-menu.show-menu {
   }
   header #main-menu.show-menu {
     right: 0;
+    display: inline;
     transition: 0.3s;
   }
 }
@@ -683,18 +784,22 @@ div#hero .buttoncolor {
   display: flex;
   justify-content: flex-start;
   align-items: center;
+  padding-top: 20px;
 }
-#searchbar h4 {
+#searchbar ::placeholder {
   color: #45294F;
-  border: 2px solid #000;
   background-color: #fafafa;
   padding: 5px;
-  margin-right: px;
+  margin-right: 10px;
+  font-family: "Hiragino Kaku Gothic Pro", Arial, sans-serif;
+  font-size: 12px;
+  padding-right: 30px;
 }
 #searchbar img {
   margin-left: 20px;
   background-color: #45294F;
-  padding-top: 5px;
+  padding-top: 8px;
+  padding-bottom: 2px;
   padding-left: 10px;
   padding-right: 10px;
   border: 1px solid #000;
@@ -857,4 +962,67 @@ div#hero .buttoncolor {
   #footer div h3 {
     display: none;
   }
+}
+
+.ordersummary {
+  background-color: #45294F;
+  color: #fafafa;
+  margin-bottom: none;
+  padding-top: 5px;
+  margin-top: 30px;
+  text-align: center;
+}
+
+.summary {
+  background-color: #45294F;
+  color: #fafafa;
+  margin-bottom: 0px;
+  margin-top: -25px;
+  text-align: center;
+  padding-bottom: 5px;
+}
+
+.payment-section {
+  background-color: rgba(69, 41, 79, 0.75);
+}
+.payment-section .payment-form label {
+  display: block;
+  margin-bottom: 10px;
+  font-size: 16px;
+  color: #fafafa;
+}
+.payment-section .payment-form input {
+  width: 100%;
+  padding: 8px;
+  font-size: 14px;
+  color: #333;
+  margin-bottom: 16px;
+}
+.payment-section .payment-form input::placeholder {
+  color: #999;
+}
+
+.shipping-section {
+  background-color: rgba(69, 41, 79, 0.75);
+}
+.shipping-section h2 {
+  color: #333;
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+.shipping-section .shipping-form label {
+  display: block;
+  margin-bottom: 10px;
+  font-size: 16px;
+  color: #fafafa;
+}
+.shipping-section .shipping-form input {
+  width: 100%;
+  padding: 8px;
+  font-size: 14px;
+  color: #333;
+  margin-bottom: 16px;
+}
+.shipping-section .shipping-form input::placeholder {
+  color: #999;
 }
