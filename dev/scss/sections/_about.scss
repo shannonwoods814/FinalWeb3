@@ -44,3 +44,14 @@ h3{
 }
 
 }
+
+@include lg{
+    .header{
+    h2{
+    text-align: left;
+    }
+    h3{
+        text-align: left;
+        }
+    }
+}

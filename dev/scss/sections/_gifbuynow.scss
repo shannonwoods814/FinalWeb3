@@ -22,7 +22,15 @@
         top:45.5%;
         right:40%;
        }
+
+       @include lg{
+        .buttoncolor{
+            position:justified;
+            top:129%;
+            right:25%;
+        }
+    }
        background-color:#45294F;
     }
 
- 
+    

@@ -572,6 +572,14 @@ textarea {
   color: #fafafa;
 }
 
+@media (min-width: 1024px) {
+  .header h2 {
+    text-align: left;
+  }
+  .header h3 {
+    text-align: left;
+  }
+}
 article {
   display: flex;
   justify-content: center;
@@ -628,6 +636,11 @@ article h2 {
   align-items: center;
   flex-direction: column;
 }
+@media screen and (min-width: 1024px) {
+  .total-addtocart {
+    margin-left: auto;
+  }
+}
 
 h2 {
   margin-bottom: 2px;
@@ -642,6 +655,25 @@ h2 {
     padding-right: 200px;
     padding-top: 30px;
     align-items: flex-start;
+  }
+  .total-addtocart {
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    padding-left: 300px;
+    padding-right: 200px;
+    padding-top: 30px;
+    align-items: flex-right;
+  }
+  .total-addtocart h2 {
+    padding-right: 10px;
+  }
+  .total-addtocart h3 {
+    padding-top: 20px;
+    padding-right: 30px;
+  }
+  .total-addtocart .button {
+    margin-top: 10px;
   }
 }
 header {
@@ -715,12 +747,18 @@ header #burger-container {
     display: none;
   }
 }
+header #main-menu ul li a {
+  color: white;
+  font-size: 15px;
+  font-family: "Hiragino Kaku Gothic Pro", Arial, sans-serif;
+  padding-right: 15px;
+}
 @media only screen and (max-width: 1024px) {
   header #main-menu {
     display: none;
     background-color: #45294F;
     transition: 0.3s;
-    height: 100vh;
+    height: 45vh;
     width: 80%;
     position: absolute;
     top: 0;
@@ -735,7 +773,7 @@ header #burger-container {
 }
 @media (min-width: 1024px) {
   header #main-menu {
-    display: inline;
+    display: flex;
     position: relative;
     height: auto;
   }
@@ -763,6 +801,13 @@ div#hero .buttoncolor {
   position: absolute;
   top: 45.5%;
   right: 40%;
+}
+@media (min-width: 1024px) {
+  div#hero .buttoncolor {
+    position: justified;
+    top: 129%;
+    right: 25%;
+  }
 }
 
 #reviews {
@@ -805,15 +850,14 @@ div#hero .buttoncolor {
   border: 1px solid #000;
 }
 
-.filter {
+.select {
   background-color: rgba(69, 41, 79, 0.75);
-  padding-bottom: 50px;
 }
-.filter h2 {
+.select h2 {
   margin-top: 0;
   padding-top: 10px;
   display: flex;
-  justify-content: center;
+  flex-direction: row;
   align-items: center;
   text-align: center;
   color: #fafafa;
@@ -821,8 +865,13 @@ div#hero .buttoncolor {
   margin-right: 30px;
   margin-bottom: 0px;
 }
+
+.filter {
+  background-color: rgba(69, 41, 79, 0.75);
+  margin-bottom: 0px;
+}
 .filter #star {
-  margin-top: 14px;
+  padding-top: 14px;
   justify-content: center;
   align-items: center;
   text-align: center;
@@ -830,25 +879,39 @@ div#hero .buttoncolor {
 }
 
 .lowerreviewsection {
+  background-color: rgba(69, 41, 79, 0.75);
+  margin-top: 0px;
+  padding-top: 10px;
+  padding-bottom: 50px;
   text-align: center;
+}
+@media (min-width: 1024px) {
+  .lowerreviewsection {
+    justify-content: left;
+    align-items: left;
+    text-align: left;
+  }
 }
 .lowerreviewsection aside {
   background-color: #fafafa;
-  margin: 40px;
+  margin-left: 40px;
+  margin-right: 40px;
   padding-bottom: 70px;
-  padding-top: 70px;
 }
 .lowerreviewsection aside h2 {
   color: #45294F;
   padding-bottom: 10px;
   margin-left: 25px;
   margin-right: 25px;
+  padding-top: 10px;
 }
 .lowerreviewsection aside img {
   background-color: #fafafa;
   margin-top: 0px;
   margin-left: 25px;
   margin-right: 25px;
+  margin-bottom: 5px;
+  padding-top: 10px;
 }
 .lowerreviewsection aside h3 {
   background-color: #fafafa;
@@ -866,14 +929,34 @@ div#hero .buttoncolor {
   margin-right: 25px;
   padding-top: 0px;
   padding: 2px;
+  margin-bottom: 10px;
+}
+.lowerreviewsection #add-review {
+  padding-top: 40px;
 }
 .lowerreviewsection #add-review .revbutton {
   margin-bottom: 3000px;
 }
 .lowerreviewsection #readmore {
   margin-top: 30px;
+  margin-bottom: 10px;
 }
 
+@media (min-width: 1024px) {
+  .filter {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: right;
+  }
+  .filter #star {
+    padding-top: 14px;
+    justify-content: left;
+    align-items: left;
+    text-align: left;
+    padding-bottom: 10px;
+    padding-left: 35px;
+  }
+}
 * {
   text-decoration: none;
   list-style: none;
@@ -928,6 +1011,17 @@ div#hero .buttoncolor {
   padding-top: 45px;
 }
 
+@media (min-width: 1024px) {
+  .suggestedforyou {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-left: 200px;
+    padding-right: 200px;
+    padding-top: 30px;
+    align-items: flex-start;
+  }
+}
 #footer {
   background-color: #45294F;
   padding-bottom: 50px;
