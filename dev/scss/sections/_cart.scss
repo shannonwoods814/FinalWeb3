@@ -17,6 +17,10 @@
 
 #card1 {
 
+@include lg{
+margin-left: 40px;
+margin-right: 40px;
+}
 
     .photo1 {
 
@@ -38,8 +42,14 @@
     }
 
     .texts {
+
+        
         background-color:  rgba(69, 41, 79, 0.70);
         padding-left: 15px;
+        @include lg{
+            margin-left: 40px;
+            margin-right: 40px;
+        }
        h2 {
 
             color: #fafafa;

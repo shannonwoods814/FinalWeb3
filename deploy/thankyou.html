@@ -120,6 +120,38 @@
          Sign up<br>
          Promotional Codes</h3>
  </div>
+ 
+ <aside>
+     <html>
+ <head>
+   <style>
+     html {
+       scroll-behavior: smooth;
+     }
+     /* Optional: Add some styles to the anchor element */
+     aside h4 {
+       color: blue;
+       text-decoration: underline;
+       cursor: pointer;
+     }
+   </style>
+ </head>
+ <body>
+   <aside>
+     <h4 onclick="scrollToTop()">Click Here to Go Back to the Top</h4>
+   </aside>
+ 
+   <!-- Rest of your content -->
+ 
+   <script>
+     function scrollToTop() {
+       window.scrollTo({ top: 0, behavior: 'smooth' });
+     }
+   </script>
+ </body>
+ </html>
+ </aside>
+ 
  </section>
   <script src="js/scripts-min.js"></script>
 

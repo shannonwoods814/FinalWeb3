@@ -892,20 +892,20 @@ div#hero .buttoncolor {
     text-align: left;
   }
 }
-.lowerreviewsection aside {
+.lowerreviewsection section {
   background-color: #fafafa;
   margin-left: 40px;
   margin-right: 40px;
   padding-bottom: 70px;
 }
-.lowerreviewsection aside h2 {
+.lowerreviewsection section h2 {
   color: #45294F;
   padding-bottom: 10px;
   margin-left: 25px;
   margin-right: 25px;
   padding-top: 30px;
 }
-.lowerreviewsection aside img {
+.lowerreviewsection section img {
   background-color: #fafafa;
   margin-top: 0px;
   margin-left: 25px;
@@ -913,7 +913,7 @@ div#hero .buttoncolor {
   margin-bottom: 5px;
   padding-top: 10px;
 }
-.lowerreviewsection aside h3 {
+.lowerreviewsection section h3 {
   background-color: #fafafa;
   padding-bottom: 10px;
   margin-left: 25px;
@@ -921,7 +921,7 @@ div#hero .buttoncolor {
   padding-top: 0px;
   padding: 2px;
 }
-.lowerreviewsection aside h4 {
+.lowerreviewsection section .ppl {
   background-color: #fafafa;
   padding-bottom: 10px;
   margin-top: 0px;
@@ -1094,6 +1094,12 @@ div#hero .buttoncolor {
   padding-bottom: 5px;
 }
 
+@media (min-width: 1024px) {
+  #card1 {
+    margin-left: 40px;
+    margin-right: 40px;
+  }
+}
 #card1 .photo1 {
   background-color: #fafafa;
   display: flex;
@@ -1109,6 +1115,12 @@ div#hero .buttoncolor {
 #card1 .texts {
   background-color: rgba(69, 41, 79, 0.7);
   padding-left: 15px;
+}
+@media (min-width: 1024px) {
+  #card1 .texts {
+    margin-left: 40px;
+    margin-right: 40px;
+  }
 }
 #card1 .texts h2 {
   color: #fafafa;
