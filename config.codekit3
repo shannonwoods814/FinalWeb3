@@ -146,6 +146,19 @@
       "q" : 90,
       "rq" : 75
     },
+    "\/deploy\/img\/attachmentcart.png" : {
+      "ft" : 32768,
+      "iS" : 112932,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/attachmentcart.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 90,
+      "rq" : 75
+    },
     "\/deploy\/img\/BUYNOW.png" : {
       "ft" : 32768,
       "iS" : 856044,

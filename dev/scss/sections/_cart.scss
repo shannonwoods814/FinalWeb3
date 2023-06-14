@@ -6,26 +6,159 @@
     padding-top: 5px;
     margin-top: 30px;
 
+
    text-align: center;
-    
-}
-
-.summary{
-
-    background-color: #45294F;
-    color: #fafafa;
 
 margin-bottom: 0px; 
-margin-top: -25px;
 text-align: center;
 padding-bottom: 5px;
 
 }
 
+#card1{
 
+    img{
+        height: 400px;
+        display:flex;
+        margin: 0 auto; // Centers the image horizontally
+        display: block;
+        padding-top:35px;
+    }
+
+    h2{
+
+        background-color:  rgba(69, 41, 79, 0.70);
+        color: #fafafa;
+        padding-bottom: 15px;
+        margin-bottom: 0px;
+        padding-top: 20px;
+
+    }
+
+    h3{
+
+        background-color:  rgba(69, 41, 79, 0.70);
+        color: #fafafa;
+        margin-top: 0px;
+        margin-bottom: 0px;
+
+    }
+
+    h4{
+
+        background-color:  rgba(69, 41, 79, 0.70);
+        color: #fafafa;
+        margin-top: 0px;
+        padding-top: 10px;
+        padding-bottom: 30px;
+        text-decoration: underline;
+
+    }
+
+
+}
+
+#card2{
+
+    h2{
+
+        background-color:  rgba(69, 41, 79, 0.70);
+        color: #fafafa;
+        padding-bottom: 15px;
+        margin-bottom: 0px;
+        padding-top: 20px;
+
+    }
+
+    h3{
+
+        background-color:  rgba(69, 41, 79, 0.70);
+        color: #fafafa;
+        margin-top: 0px;
+        margin-bottom: 0px;
+
+    }
+
+    h4{
+
+        background-color:  rgba(69, 41, 79, 0.70);
+        color: #fafafa;
+        margin-top: 0px;
+        padding-top: 10px;
+        padding-bottom: 30px;
+        text-decoration: underline;
+
+    }
+   
+    img{
+        height: 300px;
+        display:flex;
+        margin: 0 auto; // Centers the image horizontally
+        display: block;
+        padding-top:35px;
+       
+    }
+}
+
+.ordertotal{
+    color: #fafafa;
+    background-color: #45294F;
+    text-align: center;
+    .OT{
+        padding-top: 15px;
+        
+    }
+
+    .dollaramnt{
+        padding-bottom: 15px;
+    }
+
+}
+.paymentmethod{
+
+    .imgone1{
+        background-color: rgb(218, 219, 221);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 15px;
+        margin-top: 45px;
+    
+    }
+
+    .imgtwo2{
+        background-color: black;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 45px;
+    }
+}
+    
+
+
+
+#payment-information{
+    h1{
+        background-color: #45294F;
+        color: #fafafa;
+        padding-top: 15px;
+        padding-bottom: 15px;
+        margin-bottom: 0px;
+        padding-left: 20px;
+
+    
+    }
+}
 
 .payment-section {
     background-color:rgba(69, 41, 79, 0.75);
+    padding-top: 15px;
+    padding-bottom: 70px;
+    margin-bottom: 0px;
+    
    
   
 .payment-form {
@@ -34,30 +167,47 @@ padding-bottom: 5px;
         margin-bottom: 10px;
         font-size: 16px;
         color: #fafafa;
+        font-family: 'Hiragino Kaku Gothic Pro', Arial, sans-serif;
+        padding-left: 20px;
       }
   
       input {
-        width: 100%;
+        width: 80%;
+        margin-left: 20px;
         padding: 8px;
         font-size: 14px;
+        font-family:'Hiragino Kaku Gothic Pro', Arial, sans-serif; ;
         color: #333;
         margin-bottom: 16px;
   
         &::placeholder {
-          color: #999;
+        
         }
       }
     }
   }
 
-
+#shipping-information{
+    h1{
+        background-color: #45294F;
+        color: #fafafa;
+        padding-top: 15px;
+        padding-bottom: 15px;
+        margin-bottom: 0px;
+        margin-top: 0px;
+        padding-left: 20px;
+    }
+}
   .shipping-section {
     background-color:rgba(69, 41, 79, 0.75);
+    padding-top: 15px;
+    padding-bottom: 70px;
    
     h2 {
       color: #333;
       font-size: 24px;
       margin-bottom: 20px;
+      
     }
   
 .shipping-form {
@@ -66,20 +216,47 @@ padding-bottom: 5px;
         margin-bottom: 10px;
         font-size: 16px;
         color: #fafafa;
+        font-family: 'Hiragino Kaku Gothic Pro', Arial, sans-serif;
+        padding-left: 20px;
       }
   
       input {
-        width: 100%;
+        width: 80%;
+        margin-left: 20px;
         padding: 8px;
         font-size: 14px;
+        font-family:'Hiragino Kaku Gothic Pro', Arial, sans-serif; ;
         color: #333;
         margin-bottom: 16px;
   
         &::placeholder {
-          color: #999;
+         
         }
       }
     }
+  }
+
+  .tothankyou{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-top: 40px;
+  margin-bottom: 0px;
+   
+  .buttoncolor{
+        padding-right: 50px;
+        padding-left: 35px;
+        padding-top: 15px;
+        padding-bottom:15px;
+        font-family: 'Hiragino Kaku Gothic Pro', Arial, sans-serif;
+        font-size: 16px;
+
+
+        
+        
+    }
+
   }
   
   

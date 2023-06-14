@@ -30,6 +30,7 @@
 
     img{
         padding-top: 45px;
+        padding-left: 0px;
     }
 
 }
@@ -65,13 +66,10 @@
 
 @include lg{
     .suggestedforyou{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    padding-left: 200px;
-    padding-right:200px;
-    padding-top: 30px;
-    align-items: flex-start;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        flex-direction: row;
+        margin-left: 10px;
     }
 }
 

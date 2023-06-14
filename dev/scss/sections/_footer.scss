@@ -1,14 +1,23 @@
 #footer{
+    @include lg{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        flex-direction: row;
+        padding-left: 40px;
+        text-align: left;
+    }
 
     background-color: #45294F;
     padding-bottom: 50px;
     color: #fafafa;
     padding-top: 20px;
     text-align: center;
-    margin-top: 160px;
+    margin-top: 70px;
     h2{
         text-decoration: underline;
+        margin-bottom: 60px;
     }
+   
    
     aside {
 
@@ -45,6 +54,7 @@
           }
         }
       }
+
 
 
 
