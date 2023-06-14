@@ -149,6 +149,7 @@ text-align: center;
 }
 .paymentmethod{
 
+#card1{
 .imgone1{
     background-color: rgb(218, 219, 221);
     display: flex;
@@ -157,6 +158,32 @@ text-align: center;
     justify-content: center;
     margin-bottom: 15px;
     margin-top: 45px;
+
+}
+.quantity-control {
+    display: flex;
+    align-items: center;
+  
+    .subtract-button,
+    .add-button {
+      padding: 5px 10px;
+      font-size: 14px;
+      background-color: #e0e0e0;
+      border: none;
+      cursor: pointer;
+    }
+  
+    .quantity-input {
+      padding: 5px 10px;
+      font-size: 14px;
+      border: 1px solid #e0e0e0;
+      width: 50px;
+      text-align: center;
+    }
+  }
+
+
+
 
 }
 

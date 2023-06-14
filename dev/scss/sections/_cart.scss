@@ -17,17 +17,19 @@ padding-bottom: 5px;
 
 #card1{
 
-    img{
+    
+
+    .photo1{
         height: 400px;
         display:flex;
         margin: 0 auto; // Centers the image horizontally
         display: block;
-        padding-top:35px;
+        padding-top:20px;
+        padding-bottom: 35px;
     }
-
+.text{
+    background-color:rgba(69, 41, 79, 0.50);
     h2{
-
-        background-color:  rgba(69, 41, 79, 0.70);
         color: #fafafa;
         padding-bottom: 15px;
         margin-bottom: 0px;
@@ -36,8 +38,6 @@ padding-bottom: 5px;
     }
 
     h3{
-
-        background-color:  rgba(69, 41, 79, 0.70);
         color: #fafafa;
         margin-top: 0px;
         margin-bottom: 0px;
@@ -45,8 +45,6 @@ padding-bottom: 5px;
     }
 
     h4{
-
-        background-color:  rgba(69, 41, 79, 0.70);
         color: #fafafa;
         margin-top: 0px;
         padding-top: 10px;
@@ -57,12 +55,15 @@ padding-bottom: 5px;
 
 
 }
+}
 
 #card2{
+.text2{
 
+    background-color:  rgba(69, 41, 79, 0.50);
+   
     h2{
 
-        background-color:  rgba(69, 41, 79, 0.70);
         color: #fafafa;
         padding-bottom: 15px;
         margin-bottom: 0px;
@@ -72,7 +73,7 @@ padding-bottom: 5px;
 
     h3{
 
-        background-color:  rgba(69, 41, 79, 0.70);
+    
         color: #fafafa;
         margin-top: 0px;
         margin-bottom: 0px;
@@ -81,7 +82,7 @@ padding-bottom: 5px;
 
     h4{
 
-        background-color:  rgba(69, 41, 79, 0.70);
+    
         color: #fafafa;
         margin-top: 0px;
         padding-top: 10px;
@@ -89,6 +90,7 @@ padding-bottom: 5px;
         text-decoration: underline;
 
     }
+}
    
     img{
         height: 300px;
@@ -259,4 +261,20 @@ padding-bottom: 5px;
 
   }
   
+  @include lg{
+    #card1 {
+        display: flex;
+        align-items: center;
+      }
+      
+      .photo1 {
+        flex: 0 0 auto; /* Prevents photo1 from growing */
+        margin-right: 0px; /* Adds spacing between photo1 and text */
+      }
+
+    .text{
+        padding: 300px;
+    }
+    }
+
   

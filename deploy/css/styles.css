@@ -1094,28 +1094,29 @@ div#hero .buttoncolor {
   padding-bottom: 5px;
 }
 
-#card1 img {
+#card1 .photo1 {
   height: 400px;
   display: flex;
   margin: 0 auto;
   display: block;
-  padding-top: 35px;
+  padding-top: 20px;
+  padding-bottom: 35px;
 }
-#card1 h2 {
-  background-color: rgba(69, 41, 79, 0.7);
+#card1 .text {
+  background-color: rgba(69, 41, 79, 0.5);
+}
+#card1 .text h2 {
   color: #fafafa;
   padding-bottom: 15px;
   margin-bottom: 0px;
   padding-top: 20px;
 }
-#card1 h3 {
-  background-color: rgba(69, 41, 79, 0.7);
+#card1 .text h3 {
   color: #fafafa;
   margin-top: 0px;
   margin-bottom: 0px;
 }
-#card1 h4 {
-  background-color: rgba(69, 41, 79, 0.7);
+#card1 .text h4 {
   color: #fafafa;
   margin-top: 0px;
   padding-top: 10px;
@@ -1123,21 +1124,21 @@ div#hero .buttoncolor {
   text-decoration: underline;
 }
 
-#card2 h2 {
-  background-color: rgba(69, 41, 79, 0.7);
+#card2 .text2 {
+  background-color: rgba(69, 41, 79, 0.5);
+}
+#card2 .text2 h2 {
   color: #fafafa;
   padding-bottom: 15px;
   margin-bottom: 0px;
   padding-top: 20px;
 }
-#card2 h3 {
-  background-color: rgba(69, 41, 79, 0.7);
+#card2 .text2 h3 {
   color: #fafafa;
   margin-top: 0px;
   margin-bottom: 0px;
 }
-#card2 h4 {
-  background-color: rgba(69, 41, 79, 0.7);
+#card2 .text2 h4 {
   color: #fafafa;
   margin-top: 0px;
   padding-top: 10px;
@@ -1268,6 +1269,19 @@ div#hero .buttoncolor {
   font-size: 16px;
 }
 
+@media (min-width: 1024px) {
+  #card1 {
+    display: flex;
+    align-items: center;
+  }
+  .photo1 {
+    flex: 0 0 auto; /* Prevents photo1 from growing */
+    margin-right: 0px; /* Adds spacing between photo1 and text */
+  }
+  .text {
+    padding: 300px;
+  }
+}
 .thankyouhero {
   background-color: rgba(69, 41, 79, 0.43);
   margin: 0px;
@@ -1377,7 +1391,7 @@ div#hero .buttoncolor {
   margin-bottom: 200px;
 }
 
-.paymentmethod .imgone1 {
+.paymentmethod #card1 .imgone1 {
   background-color: rgb(218, 219, 221);
   display: flex;
   flex-direction: column;
@@ -1385,6 +1399,25 @@ div#hero .buttoncolor {
   justify-content: center;
   margin-bottom: 15px;
   margin-top: 45px;
+}
+.paymentmethod #card1 .quantity-control {
+  display: flex;
+  align-items: center;
+}
+.paymentmethod #card1 .quantity-control .subtract-button,
+.paymentmethod #card1 .quantity-control .add-button {
+  padding: 5px 10px;
+  font-size: 14px;
+  background-color: #e0e0e0;
+  border: none;
+  cursor: pointer;
+}
+.paymentmethod #card1 .quantity-control .quantity-input {
+  padding: 5px 10px;
+  font-size: 14px;
+  border: 1px solid #e0e0e0;
+  width: 50px;
+  text-align: center;
 }
 .paymentmethod .imgtwo2 {
   background-color: black;
