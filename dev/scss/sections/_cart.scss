@@ -1,135 +1,150 @@
-.ordersummary{
-        background-color: #45294F;
-        color: #fafafa;
+.ordersummarys {
+    background-color: #45294F;
+    color: #fafafa;
 
     margin-bottom: none;
     padding-top: 5px;
     margin-top: 30px;
 
 
-   text-align: center;
-
-margin-bottom: 0px; 
-text-align: center;
-padding-bottom: 5px;
-
-}
-
-#card1{
-
-    
-
-    .photo1{
-        height: 400px;
-        display:flex;
-        margin: 0 auto; // Centers the image horizontally
-        display: block;
-        padding-top:20px;
-        padding-bottom: 35px;
-    }
-.text{
-    background-color:rgba(69, 41, 79, 0.50);
-    h2{
-        color: #fafafa;
-        padding-bottom: 15px;
-        margin-bottom: 0px;
-        padding-top: 20px;
-
-    }
-
-    h3{
-        color: #fafafa;
-        margin-top: 0px;
-        margin-bottom: 0px;
-
-    }
-
-    h4{
-        color: #fafafa;
-        margin-top: 0px;
-        padding-top: 10px;
-        padding-bottom: 30px;
-        text-decoration: underline;
-
-    }
-
-
-}
-}
-
-#card2{
-.text2{
-
-    background-color:  rgba(69, 41, 79, 0.50);
-   
-    h2{
-
-        color: #fafafa;
-        padding-bottom: 15px;
-        margin-bottom: 0px;
-        padding-top: 20px;
-
-    }
-
-    h3{
-
-    
-        color: #fafafa;
-        margin-top: 0px;
-        margin-bottom: 0px;
-
-    }
-
-    h4{
-
-    
-        color: #fafafa;
-        margin-top: 0px;
-        padding-top: 10px;
-        padding-bottom: 30px;
-        text-decoration: underline;
-
-    }
-}
-   
-    img{
-        height: 300px;
-        display:flex;
-        margin: 0 auto; // Centers the image horizontally
-        display: block;
-        padding-top:35px;
-       
-    }
-}
-
-.ordertotal{
-    color: #fafafa;
-    background-color: #45294F;
     text-align: center;
-    .OT{
-        padding-top: 15px;
+
+    margin-bottom: 0px;
+    text-align: center;
+    padding-bottom: 5px;
+
+}
+
+#card1 {
+
+
+    .photo1 {
+
+        background-color: #fafafa;
+        display: flex;
+        margin: 0 auto; // Centers the image horizontally
+        display: block;
+        padding-top: 20px;
+        padding-bottom: 35px;
+        img{
+
+            height: 400px;
+            padding-left: 150px;
+    
+
+        }
+       
         
     }
 
-    .dollaramnt{
+    .texts {
+        background-color:  rgba(69, 41, 79, 0.70);
+        padding-left: 15px;
+       h2 {
+
+            color: #fafafa;
+            padding-bottom: 15px;
+            margin-bottom: 0px;
+            padding-top: 20px;
+
+        }
+
+        h3 {
+            color: #fafafa;
+            margin-top: 0px;
+            margin-bottom: 0px;
+
+        }
+
+        h4 {
+            color: #fafafa;
+            margin-top: 0px;
+            padding-top: 10px;
+            padding-bottom: 30px;
+            text-decoration: underline;
+
+        }
+
+
+    }
+}
+
+#card2 {
+
+
+    .photo2 {
+        background-color: #fafafa;
+        height: 400px;
+        display: flex;
+        margin: 0 auto; // Centers the image horizontally
+        display: block;
+        padding-top: 20px;
+        padding-bottom: 35px;
+        align-content: center;
+        padding-left: 140px;
+    }
+
+    .text2 {
+        background-color:  rgba(69, 41, 79, 0.70);
+        padding-left: 15px;
+       h2 {
+
+            color: #fafafa;
+            padding-bottom: 15px;
+            margin-bottom: 0px;
+            padding-top: 20px;
+
+        }
+
+        h3 {
+            color: #fafafa;
+            margin-top: 0px;
+            margin-bottom: 0px;
+
+        }
+
+        h4 {
+            color: #fafafa;
+            margin-top: 0px;
+            padding-top: 10px;
+            padding-bottom: 30px;
+            text-decoration: underline;
+
+        }
+
+
+    }
+}
+.ordertotal {
+    color: #fafafa;
+    background-color: #45294F;
+    text-align: center;
+
+    .OT1 {
+        padding-top: 15px;
+
+    }
+
+    .dollaramnt1 {
         padding-bottom: 15px;
     }
 
 }
-.paymentmethod{
 
-    .imgone1{
+.paymentmethod {
+
+    .imgone1 {
         background-color: rgb(218, 219, 221);
         display: flex;
         flex-direction: column;
         align-items: center;
         justify-content: center;
         margin-bottom: 15px;
-        margin-top: 45px;
-    
+        margin-top: 40px;
+
     }
 
-    .imgtwo2{
+    .imgtwo2 {
         background-color: black;
         display: flex;
         flex-direction: column;
@@ -138,12 +153,12 @@ padding-bottom: 5px;
         margin-bottom: 45px;
     }
 }
-    
 
 
 
-#payment-information{
-    h1{
+
+#payment-information {
+    h1 {
         background-color: #45294F;
         color: #fafafa;
         padding-top: 15px;
@@ -151,46 +166,55 @@ padding-bottom: 5px;
         margin-bottom: 0px;
         padding-left: 20px;
 
-    
+        @include lg{
+            margin-left: 40px;
+            margin-right: 40px;
+        }
+
+
     }
 }
 
 .payment-section {
-    background-color:rgba(69, 41, 79, 0.75);
+    background-color: rgba(69, 41, 79, 0.75);
     padding-top: 15px;
     padding-bottom: 70px;
     margin-bottom: 0px;
-    
-   
-  
-.payment-form {
-      label {
-        display: block;
-        margin-bottom: 10px;
-        font-size: 16px;
-        color: #fafafa;
-        font-family: 'Hiragino Kaku Gothic Pro', Arial, sans-serif;
-        padding-left: 20px;
-      }
-  
-      input {
-        width: 80%;
-        margin-left: 20px;
-        padding: 8px;
-        font-size: 14px;
-        font-family:'Hiragino Kaku Gothic Pro', Arial, sans-serif; ;
-        color: #333;
-        margin-bottom: 16px;
-  
-        &::placeholder {
-        
-        }
-      }
-    }
-  }
 
-#shipping-information{
-    h1{
+    @include lg{
+        margin-left: 40px;
+        margin-right: 40px;
+    }
+
+
+
+    .payment-form {
+        label {
+            display: block;
+            margin-bottom: 10px;
+            font-size: 16px;
+            color: #fafafa;
+            font-family: 'Hiragino Kaku Gothic Pro', Arial, sans-serif;
+            padding-left: 20px;
+        }
+
+        input {
+            width: 80%;
+            margin-left: 20px;
+            padding: 8px;
+            font-size: 14px;
+            font-family: 'Hiragino Kaku Gothic Pro', Arial, sans-serif;
+            ;
+            color: #333;
+            margin-bottom: 16px;
+
+            &::placeholder {}
+        }
+    }
+}
+
+#shipping-information {
+    h1 {
         background-color: #45294F;
         color: #fafafa;
         padding-top: 15px;
@@ -198,83 +222,142 @@ padding-bottom: 5px;
         margin-bottom: 0px;
         margin-top: 0px;
         padding-left: 20px;
+        @include lg{
+            margin-left: 40px;
+            margin-right: 40px;
+        }
     }
 }
-  .shipping-section {
-    background-color:rgba(69, 41, 79, 0.75);
+
+.shipping-section {
+    background-color: rgba(69, 41, 79, 0.75);
     padding-top: 15px;
     padding-bottom: 70px;
-   
-    h2 {
-      color: #333;
-      font-size: 24px;
-      margin-bottom: 20px;
-      
+    @include lg{
+        margin-left: 40px;
+        margin-right: 40px;
     }
-  
-.shipping-form {
-      label {
-        display: block;
-        margin-bottom: 10px;
-        font-size: 16px;
-        color: #fafafa;
-        font-family: 'Hiragino Kaku Gothic Pro', Arial, sans-serif;
-        padding-left: 20px;
-      }
-  
-      input {
-        width: 80%;
-        margin-left: 20px;
-        padding: 8px;
-        font-size: 14px;
-        font-family:'Hiragino Kaku Gothic Pro', Arial, sans-serif; ;
-        color: #333;
-        margin-bottom: 16px;
-  
-        &::placeholder {
-         
-        }
-      }
-    }
-  }
 
-  .tothankyou{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  margin-top: 40px;
-  margin-bottom: 0px;
-   
-  .buttoncolor{
+    h2 {
+        color: #333;
+        font-size: 24px;
+        margin-bottom: 20px;
+
+    }
+
+    .shipping-form {
+        label {
+            display: block;
+            margin-bottom: 10px;
+            font-size: 16px;
+            color: #fafafa;
+            font-family: 'Hiragino Kaku Gothic Pro', Arial, sans-serif;
+            padding-left: 20px;
+        }
+
+        input {
+            width: 80%;
+            margin-left: 20px;
+            padding: 8px;
+            font-size: 14px;
+            font-family: 'Hiragino Kaku Gothic Pro', Arial, sans-serif;
+            ;
+            color: #333;
+            margin-bottom: 16px;
+
+            &::placeholder {}
+        }
+    }
+}
+
+.tothankyou {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 0px;
+
+    .buttoncolor {
         padding-right: 50px;
         padding-left: 35px;
         padding-top: 15px;
-        padding-bottom:15px;
+        padding-bottom: 15px;
         font-family: 'Hiragino Kaku Gothic Pro', Arial, sans-serif;
         font-size: 16px;
 
 
-        
-        
+
+
     }
 
-  }
-  
-  @include lg{
+}
+
+@include lg {
+
+    .ordersummarys {
+    margin-left: 40px;
+    margin-right: 40px;
+    text-align: left;
+    padding-left: 15px;
+    }
     #card1 {
         display: flex;
         align-items: center;
-      }
-      
-      .photo1 {
-        flex: 0 0 auto; /* Prevents photo1 from growing */
-        margin-right: 0px; /* Adds spacing between photo1 and text */
-      }
+        margin-top: 0px;
 
-    .text{
+    }
+
+    .photo1 {
+        flex: 0 0 auto;
+        /* Prevents photo1 from growing */
+        margin-right: -10px;
+        /* Adds spacing between photo1 and text */
+        padding-left: 350px;
+        padding-right: 500px;
+        margin-top: 0px;
+        margin-left: 40px;
+        margin-right: 0px;
+
+    }
+
+    .texts {
         padding: 300px;
-    }
+        padding-left: 800px;
+        padding-top: 0px;
+        margin-right: 40px;
     }
 
-  
+
+    #card2 {
+        display: flex;
+        align-items: center;
+        margin-top: 0px;
+
+    }
+
+    .photo2 {
+        flex: 0 0 auto;
+        /* Prevents photo1 from growing */
+        margin-right: -10px;
+        /* Adds spacing between photo1 and text */
+        padding-left: 600px;
+        padding-right: 500px;
+        margin-top: 0px;
+        margin-left: 40px;
+        margin-right: 0px;
+      
+       
+
+    }
+
+    .text2 {
+        padding: 200px;
+        padding-left: 500px;
+        padding-top: 0px;
+        margin-right: 40px;
+    }
+
+
+
+}
